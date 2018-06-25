@@ -27,7 +27,7 @@ public class PrivadoBean implements Serializable {
 		//checa se o bean Login tem uma sessão ativa e retorna uma página privada se sim, 
 		// caso não tenha retorna uma página de erro, ou poderia retornar pra página de login 
 		if(login.isValid())
-			return "privada";
+			return "privado";
 		else
 			return "erro";
 	}
