@@ -9,6 +9,9 @@
 <h:body>
 	<h:form>
 		<p>Bem vindo #{loginBean.uname}</p>
+		
+		<h:commandButton action="#{privadoBean.paginaPrivada}"
+			value="Privado"></h:commandButton>
 		<h:commandLink action="#{loginBean.logout}" value="Logout"></h:commandLink>
 	</h:form>
 </h:body>
