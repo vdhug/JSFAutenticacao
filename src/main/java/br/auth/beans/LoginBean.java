@@ -20,7 +20,7 @@ public class LoginBean implements Serializable {
 	private String uname;
 	private String pwd;
 	private String msg;
-	private boolean valid = false;
+	private static boolean valid = false;
 
 	public String getUname() {
 		return uname;
